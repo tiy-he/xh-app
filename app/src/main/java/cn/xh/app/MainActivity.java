@@ -1,4 +1,4 @@
-package cn.xh.xh_app;
+package cn.xh.app;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

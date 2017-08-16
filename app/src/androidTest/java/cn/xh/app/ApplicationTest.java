@@ -1,4 +1,4 @@
-package cn.xh.xh_app;
+package cn.xh.app;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
