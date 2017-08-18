@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- hint用于提示信息的显示 -->
+    <!-- completionThreshold设置用户在输入多少字符时出现下拉列表 -->
+    <AutoCompleteTextView
+        android:id="@+id/stu_auto_com_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="AutoCompleteTextView"
+        android:completionThreshold="3"/>
+
+    <MultiAutoCompleteTextView
+        android:id="@+id/stu_multi_auto_com_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="MultiAutoCompleteTextView"
+        android:completionThreshold="3"/>
+
+</LinearLayout>

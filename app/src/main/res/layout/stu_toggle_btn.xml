@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- 使用textOn和textOff设置开和关两种状态显示的字 -->
+    <ToggleButton
+        android:id="@+id/stu_toggle_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textOn="开"
+        android:textOff="关"
+        />
+
+</LinearLayout>

@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
-import cn.xh.app.study.ViewMain;
+import cn.xh.app.study.StudyMain;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void toView(View view) {
         Intent intent = new Intent();
-        intent.setClass(this, ViewMain.class);
+        intent.setClass(this, StudyMain.class);
         startActivity(intent);
     }
 }

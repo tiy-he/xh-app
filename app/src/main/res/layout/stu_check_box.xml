@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- checked属性设置为true表示选中状态，该值默认为false -->
+    <CheckBox
+        android:id="@+id/stu_check_box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="复选框"
+        android:checked="true"
+        />
+
+</LinearLayout>

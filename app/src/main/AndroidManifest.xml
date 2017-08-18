@@ -16,8 +16,18 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".study.ViewMain"/>
-        <activity android:name=".study.btnListen.BtnListenActivity"/>
+        <activity android:name=".study.StudyMain"/>
+        <activity android:name=".study.view.btnListen.BtnListenActivity"/>
+        <activity android:name=".study.view.textView.TextViewTest"/>
+        <activity android:name=".study.view.autoCompleteTextView.AutoCompleteTextViewTest"/>
+        <activity android:name=".study.view.toggleButton.ToggleButtonTest"/>
+        <activity android:name=".study.view.checkBox.CheckBoxTest"/>
+        <activity android:name=".study.view.radio.RadioTest"/>
+
+
+        <activity android:name=".study.activity.activityLifeCycle.ActivityLifeCycle"/>
+        <activity android:name=".study.activity.viewSkip.ViewSkip"/>
+        <activity android:name=".study.activity.viewSkip.ViewSkipGoal"/>
 
 
 
