@@ -15,6 +15,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".study.ViewMain"/>
+        <activity android:name=".study.btnListen.BtnListenActivity"/>
+
+
+
+
+        <activity android:name=".project.chess.view.MainActivity"/>
     </application>
 
 </manifest>

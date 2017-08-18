@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/stu_btn_listen_ni_ming"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="匿名内部类监听"/>
+        <Button
+            android:id="@+id/stu_btn_listen_wai_bu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="外部类监听"/>
+        <Button
+            android:id="@+id/stu_btn_listen_jie_kou"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="接口监听"/>
+
+</LinearLayout>
