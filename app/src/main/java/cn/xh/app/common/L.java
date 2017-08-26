@@ -15,6 +15,16 @@ public class L {
             Log.d(TAG,msg);
     }
 
+    public static void d(int msg){
+        if(DEBUG)
+            Log.d(TAG,msg+"");
+    }
+
+    public static void d(double msg){
+        if(DEBUG)
+            Log.d(TAG,msg+"");
+    }
+
     public static void e(String msg){
         if(DEBUG)
             Log.e(TAG,msg);

@@ -2,6 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="cn.xh.app">
 
+    <!-- 振动 -->
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <!--<uses-permission android:name="android.permission.FLASHLIGHT"/>-->
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -23,16 +27,22 @@
         <activity android:name=".study.view.toggleButton.ToggleButtonTest"/>
         <activity android:name=".study.view.checkBox.CheckBoxTest"/>
         <activity android:name=".study.view.radio.RadioTest"/>
+        <activity android:name=".study.view.toast.ToastTest"/>
+        <activity android:name=".study.view.dialog.DialogTest"/>
+        <activity android:name=".study.view.notification.NotificationTest"/>
+        <activity android:name=".study.view.menu.MenuTest"/>
+        <activity android:name=".study.view.menu.ContextMenuTest"/>
 
 
         <activity android:name=".study.activity.activityLifeCycle.ActivityLifeCycle"/>
         <activity android:name=".study.activity.viewSkip.ViewSkip"/>
         <activity android:name=".study.activity.viewSkip.ViewSkipGoal"/>
 
+        <!-- 通过theme设置activity的样式为：没有app标题，没有菜单 -->
+        <activity android:name=".project.calculator.CalculatorMain"
+            android:theme="@android:style/Theme.Black.NoTitleBar"/>
 
 
-
-        <activity android:name=".project.chess.view.MainActivity"/>
     </application>
 
 </manifest>

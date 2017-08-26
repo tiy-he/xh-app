@@ -11,8 +11,13 @@ import cn.xh.app.study.activity.viewSkip.ViewSkip;
 import cn.xh.app.study.view.autoCompleteTextView.AutoCompleteTextViewTest;
 import cn.xh.app.study.view.btnListen.BtnListenActivity;
 import cn.xh.app.study.view.checkBox.CheckBoxTest;
+import cn.xh.app.study.view.dialog.DialogTest;
+import cn.xh.app.study.view.menu.ContextMenuTest;
+import cn.xh.app.study.view.menu.MenuTest;
+import cn.xh.app.study.view.notification.NotificationTest;
 import cn.xh.app.study.view.radio.RadioTest;
 import cn.xh.app.study.view.textView.TextViewTest;
+import cn.xh.app.study.view.toast.ToastTest;
 import cn.xh.app.study.view.toggleButton.ToggleButtonTest;
 
 /**
@@ -61,5 +66,25 @@ public class StudyMain extends Activity{
 
     public void toViewSkip(View view) {
         go(ViewSkip.class);
+    }
+
+    public void toToast(View view) {
+        go(ToastTest.class);
+    }
+
+    public void toDialog(View view) {
+        go(DialogTest.class);
+    }
+
+    public void toNotification(View view) {
+        go(NotificationTest.class);
+    }
+
+    public void toMenu(View view) {
+        go(MenuTest.class);
+    }
+
+    public void toContextMenu(View view) {
+        go(ContextMenuTest.class);
     }
 }
