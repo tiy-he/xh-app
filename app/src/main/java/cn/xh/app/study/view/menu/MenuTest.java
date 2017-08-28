@@ -4,8 +4,6 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.ArrayAdapter;
-import android.widget.ListView;
 
 import cn.xh.app.R;
 import cn.xh.app.common.ToastHelper;
@@ -19,7 +17,7 @@ public class MenuTest extends Activity{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.stu_menu);
+        setContentView(R.layout.stu_view_menu);
     }
 
     /**

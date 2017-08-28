@@ -7,6 +7,7 @@ import android.view.View;
 
 import cn.xh.app.project.calculator.CalculatorMain;
 import cn.xh.app.study.StudyMain;
+import cn.xh.app.study.data.DataMain;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -19,11 +20,15 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this,cls);
         startActivity(intent);
     }
-    public void toView(View view) {
-        go(StudyMain.class);
-    }
-
     public void toCalculatorMain(View view) {
         go(CalculatorMain.class);
+    }
+
+    public void toData(View view) {
+        go(DataMain.class);
+    }
+
+    public void toStudy(View view) {
+        go(StudyMain.class);
     }
 }

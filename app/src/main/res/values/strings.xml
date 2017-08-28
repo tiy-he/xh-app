@@ -1,6 +1,4 @@
 <resources>
     <string name="app_name">xh-app</string>
-    <string name="view">视图</string>
     <string name="hello">hello word</string>
-    <string name="button">按钮监听</string>
 </resources>

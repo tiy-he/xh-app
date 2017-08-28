@@ -23,7 +23,7 @@ public class NotificationTest extends Activity{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.stu_notification);
+        setContentView(R.layout.stu_view_notification);
         notificationManager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
     }
 

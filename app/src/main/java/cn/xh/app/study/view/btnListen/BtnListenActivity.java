@@ -20,7 +20,7 @@ public class BtnListenActivity extends Activity implements OnClickListener{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.stu_btn_listen);
+        setContentView(R.layout.stu_view_btn_listen);
 
         niMingListen();
         waiBuListen();

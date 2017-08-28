@@ -28,7 +28,7 @@ public class AutoCompleteTextViewTest extends Activity{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.stu_auto_com_text_view);
+        setContentView(R.layout.stu_view_auto_com_text_view);
 
         autoCompleteTextViewInit();
         multiAutoCompleteTextViewInit();

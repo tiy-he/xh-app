@@ -21,7 +21,7 @@ public class RadioTest extends Activity{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.stu_radio);
+        setContentView(R.layout.stu_view_radio);
 
         radioGroup = (RadioGroup) findViewById(R.id.stu_radio_group);
         //绑定点击事件

@@ -28,7 +28,7 @@ public class ActivityLifeCycle extends Activity{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.stu_activity_life_cycle);
+        setContentView(R.layout.stu_ac_life_cycle);
         L.d("onCreate");
     }
 

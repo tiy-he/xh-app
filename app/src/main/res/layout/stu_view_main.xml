@@ -15,7 +15,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
-            android:text="@string/button"
+            android:text="按钮监听"
             android:onClick="toBtnListen"/>
 
         <Button
@@ -47,16 +47,6 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="activity生命周期"
-            android:onClick="toActivity"/>
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="页面跳转"
-            android:onClick="toViewSkip"/>
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
             android:text="toast"
             android:onClick="toToast"/>
         <Button
@@ -79,6 +69,14 @@
             android:layout_height="wrap_content"
             android:text="上下文菜单"
             android:onClick="toContextMenu"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="列表"
+            android:onClick="toListView"/>
+
+
 
 
     </LinearLayout>

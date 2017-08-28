@@ -28,7 +28,7 @@ public class ContextMenuTest extends Activity{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.stu_context_menu);
+        setContentView(R.layout.stu_view_context_menu);
         showListView();
     }
 
@@ -61,7 +61,7 @@ public class ContextMenuTest extends Activity{
 
         //除了代码添加菜单，也可以通过加载xml设置菜单
 //        MenuInflater inflater = getMenuInflater();
-//        inflater.inflate(R.menu.stu_menu,menu);//加载xml布局
+//        inflater.inflate(R.menu.stu_view_menu,menu);//加载xml布局
     }
 
     /**

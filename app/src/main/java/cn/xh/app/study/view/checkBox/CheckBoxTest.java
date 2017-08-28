@@ -19,7 +19,7 @@ public class CheckBoxTest extends Activity{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.stu_check_box);
+        setContentView(R.layout.stu_view_check_box);
 
         checkBox = (CheckBox) findViewById(R.id.stu_check_box);
 

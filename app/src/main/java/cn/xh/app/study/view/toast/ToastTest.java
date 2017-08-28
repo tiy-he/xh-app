@@ -22,7 +22,7 @@ public class ToastTest extends Activity{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.stu_toast);
+        setContentView(R.layout.stu_view_toast);
     }
 
     public void defaultToast(View view) {
@@ -65,7 +65,7 @@ public class ToastTest extends Activity{
         Toast toast = new Toast(this);
         //2.获取布局文件
         LayoutInflater layoutInflater = LayoutInflater.from(this);
-        View toastView = layoutInflater.inflate(R.layout.stu_toast_layout,null);
+        View toastView = layoutInflater.inflate(R.layout.stu_view_toast_layout,null);
         //3.给toast设置该布局文件
         toast.setView(toastView);
         //4.显示

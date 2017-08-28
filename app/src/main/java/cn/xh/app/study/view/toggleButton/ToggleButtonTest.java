@@ -25,7 +25,7 @@ public class ToggleButtonTest extends Activity implements OnCheckedChangeListene
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.stu_toggle_btn);
+        setContentView(R.layout.stu_view_toggle_btn);
 
         //1.获取toggleBtn控件
         toggleButton = (ToggleButton) findViewById(R.id.stu_toggle_btn);

@@ -4,8 +4,21 @@
 
     <!-- 振动 -->
     <uses-permission android:name="android.permission.VIBRATE"/>
-    <!--<uses-permission android:name="android.permission.FLASHLIGHT"/>-->
 
+    <!-- 读取联系人 -->
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+
+    <!-- 写入联系人 -->
+    <uses-permission android:name="android.permission.WRITE_CONTACTS"/>
+
+    <!-- 自定义权限 -->
+    <!--<uses-permission android:name="cn.xh.app.LOOK_BOOK"/>-->
+
+    <!--
+        icon：图标
+        label：标题
+        theme：主题样式
+    -->
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -21,6 +34,9 @@
         </activity>
 
         <activity android:name=".study.StudyMain"/>
+
+
+        <activity android:name=".study.view.ViewMain"/>
         <activity android:name=".study.view.btnListen.BtnListenActivity"/>
         <activity android:name=".study.view.textView.TextViewTest"/>
         <activity android:name=".study.view.autoCompleteTextView.AutoCompleteTextViewTest"/>
@@ -32,8 +48,20 @@
         <activity android:name=".study.view.notification.NotificationTest"/>
         <activity android:name=".study.view.menu.MenuTest"/>
         <activity android:name=".study.view.menu.ContextMenuTest"/>
+        <activity android:name=".study.activity.gesture.GestureDetectorTest"/>
+        <activity android:name=".study.activity.gesture.GestureOverlayViewTest"/>
+
+        <activity android:name=".study.view.listView.ListViewDemo"/>
 
 
+        <activity android:name=".study.data.DataMain"/>
+        <activity android:name=".study.data.sharedPreferences.SharedPreferencesTest"/>
+        <activity android:name=".study.data.contentProvider.ContentResolverTest"/>
+        <activity android:name=".study.data.contentProvider.InsertTest"/>
+        <activity android:name=".study.data.broadcast.BroadcastReceiverTest"/>
+
+
+        <activity android:name=".study.activity.ActivityMain"/>
         <activity android:name=".study.activity.activityLifeCycle.ActivityLifeCycle"/>
         <activity android:name=".study.activity.viewSkip.ViewSkip"/>
         <activity android:name=".study.activity.viewSkip.ViewSkipGoal"/>
@@ -42,6 +70,35 @@
         <activity android:name=".project.calculator.CalculatorMain"
             android:theme="@android:style/Theme.Black.NoTitleBar"/>
 
+
+        <!-- 数据提供者的注册，authorities必须唯一 -->
+        <provider
+            android:authorities="cn.xh.app.study.data.contentProvider.ContentProviderTest"
+            android:name=".study.data.contentProvider.ContentProviderTest"/>
+
+        <!-- 注册广播接收器 -->
+        <receiver android:name=".study.data.broadcast.BroadcastReceiver1">
+            <!-- 设置过渡器 -->
+            <intent-filter>
+                <action android:name="BC_ONE"/>
+            </intent-filter>
+        </receiver>
+
+        <receiver android:name=".study.data.broadcast.BroadcastReceiver2">
+            <intent-filter>
+                <action android:name="BC_ONE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".study.data.broadcast.BroadcastReceiver3">
+            <intent-filter>
+                <action android:name="BC_ONE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".study.data.broadcast.BroadcastReceiver4">
+            <intent-filter>
+                <action android:name="BC_ONE"/>
+            </intent-filter>
+        </receiver>
 
     </application>
 

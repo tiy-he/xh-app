@@ -13,6 +13,6 @@ public class TextViewTest extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.stu_long_text_view);
+        setContentView(R.layout.stu_view_long_text_view);
     }
 }

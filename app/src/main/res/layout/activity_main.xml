@@ -9,8 +9,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:text="@string/view"
-        android:onClick="toView"/>
+        android:text="学习"
+        android:onClick="toStudy"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="数据操作"
+        android:onClick="toData"/>
 
     <Button
         android:layout_width="match_parent"

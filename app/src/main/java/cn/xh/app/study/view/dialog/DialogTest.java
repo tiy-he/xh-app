@@ -31,7 +31,7 @@ public class DialogTest extends Activity{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.stu_dialog);
+        setContentView(R.layout.stu_view_dialog);
     }
 
     public void confirmDialog(View view) {
@@ -135,7 +135,7 @@ public class DialogTest extends Activity{
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         //2.获取布局
         LayoutInflater layoutInflater = LayoutInflater.from(DialogTest.this);
-        View layout = layoutInflater.inflate(R.layout.stu_toast_layout,null);
+        View layout = layoutInflater.inflate(R.layout.stu_view_toast_layout,null);
         //3.设置自定义布局
         builder.setView(layout);
         builder.setTitle("自定义对话框");
