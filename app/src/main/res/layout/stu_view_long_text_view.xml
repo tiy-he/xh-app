@@ -5,7 +5,7 @@
 
 
     <!-- 在获取焦点时有跑马灯的效果 -->
-    <cn.xh.app.study.view.textView.MyTextView
+    <com.xiaohe66.apk.demo.study.view.textView.MyTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="这是长TextView，这是长TextView，这是长TextView，这是长TextView，这是长TextView"
@@ -15,7 +15,7 @@
         android:focusableInTouchMode="true"
         />
 
-    <cn.xh.app.study.view.textView.MyTextView
+    <com.xiaohe66.apk.demo.study.view.textView.MyTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="这是长TextView，这是长TextView，这是长TextView，这是长TextView，这是长TextView"
